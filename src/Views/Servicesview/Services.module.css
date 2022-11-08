@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.serviceviewcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.serviceviewcontainer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+@media (min-width:425px) and (max-width:768px){
+    .serviceviewcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .serviceviewcontainer1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width:375px) and (max-width:425px){
+    .serviceviewcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .serviceviewcontainer1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width:320px) and (max-width:375px){
+    .serviceviewcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .serviceviewcontainer1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

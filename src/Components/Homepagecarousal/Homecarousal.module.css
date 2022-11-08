@@ -1,0 +1,180 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.mainconatiner {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    text-align: left;
+    position: relative;
+}
+
+.carousaltextcontainer {
+    height: 100vh;
+    width: 40vw;
+    background-color: #00539f;
+    color: white;
+    margin: 0% 0% 0% 2vw;
+    padding-top: 15vh;
+    position: relative;
+}
+
+.text1 {
+    font-size: 25px;
+    margin-left: 4vw;
+    cursor: pointer;
+}
+
+.text1:hover {
+    color: rgb(235, 221, 221);
+}
+
+.text2 {
+    font-size: 40px;
+    margin-left: 4vw;
+}
+
+.text3 {
+    font-size: 20px;
+    margin-left: 4vw;
+}
+
+.button {
+    margin-left: 4vw;
+    background-color: #00539f;
+    border: 1px solid white;
+}
+
+.button:hover {
+    background-color: white;
+    border: 1px solid #00539f;
+    color: #00539f;
+}
+
+.carousalcontainer {
+    height: 100vh;
+    width: 60vw;
+}
+
+.carousalimage {
+    height: 100vh !important;
+    width: 60vw !important;
+}
+
+.tabviewcontainer {
+    position: absolute;
+    display: none;
+}
+
+@media (min-width:1024px) and (max-width:1440px) {
+    .mainconatiner {
+        height: 140vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .carousaltextcontainer {
+        height: 140vh;
+        width: 40vw;
+        padding-top: 20vh;
+    }
+
+    .carousalcontainer {
+        height: 140vh;
+        width: 60vw;
+    }
+
+    .carousalimage {
+        height: 140vh !important;
+        width: 60vw !important;
+    }
+
+    .tabviewcontainer {
+        position: absolute;
+        display: none;
+    }
+}
+
+@media (min-width:900px) and (max-width:1024px) {
+    .mainconatiner {
+        position: relative;
+        height: 160vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .carousaltextcontainer {
+        height: 160vh;
+        width: 40vw;
+        padding-top: 20vh;
+    }
+
+    .carousalcontainer {
+        height: 160vh;
+        width: 60vw;
+    }
+
+    .carousalimage {
+        height: 160vh !important;
+        width: 60vw !important;
+    }
+}
+
+@media (min-width:425px) and (max-width:900px) {
+    .mainconatiner {
+        height: 0%;
+        width: 0%;
+        display: none;
+        position: absolute;
+    }
+
+    .tabviewcontainer {
+        width: 100% !important;
+        height: 60vh !important;
+        position: relative;
+        display: block;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .tabcarousalimage {
+        width: 100% !important;
+        height: 60vh !important;
+    }
+
+    .tabtext {
+        color: black;
+        font-weight: bolder;
+    }
+}
+@media (min-width:300px) and (max-width:425px) {
+    .mainconatiner {
+        height: 0%;
+        width: 0%;
+        display: none;
+        position: absolute;
+    }
+
+    .tabviewcontainer {
+        width: 100% !important;
+        height: 40vh !important;
+        position: relative;
+        display: block;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .tabcarousalimage {
+        width: 100% !important;
+        height: 40vh !important;
+    }
+
+    .tabtext {
+        color: black;
+        font-weight: bolder;
+    }
+}

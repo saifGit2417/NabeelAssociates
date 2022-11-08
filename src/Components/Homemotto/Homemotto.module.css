@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.parentmotto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    background-color: #002b52;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.textmotto {
+    height: 100vh;
+    width: 40vw;
+    text-align: left;
+    padding: 20vh 0 0 5vw;
+}
+
+.mottocardcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 60vw;
+}
+
+.mottocard {
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mottoicon {
+    font-size: 30px;
+}
+
+.mottocardreusabe {
+    height: 25vh !important;
+    width: 25vw;
+    text-align: left;
+    background-color: #002b52;
+    border: none;
+    margin: 5vh 0;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .parentmotto {
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    .textmotto {
+        width: 100%;
+        padding: 5vh 5vw;
+    }
+
+    .mottocardcontainer {
+        width: 100%;
+    }
+
+    .mottocard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .mottocardreusabe {
+        height: 25vh !important;
+        width: 40vw;
+        margin: 0%;
+        padding: 0%;
+    }
+}
+
+@media (min-width:425px) and (max-width:765px) {
+    .parentmotto {
+        display: flex;
+        flex-direction: column;
+        height: 250vh;
+    }
+
+    .textmotto {
+        width: 100%;
+        height: 70vh;
+        margin: 0%;
+        padding: 5vh 5vw;
+
+    }
+
+    .mottocardcontainer {
+        width: 100%;
+    }
+
+    .mottocard {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .mottocardreusabe {
+        height: 30vh !important;
+        width: 100%;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+@media (min-width:375px) and (max-width:424px) {
+    .parentmotto {
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    .textmotto {
+        width: 100%;
+        height: 70vh;
+        margin: 0%;
+        padding: 0 5vw;
+    }
+
+    .mottocardcontainer {
+        width: 100%;
+       height: 100vh;
+    }
+
+    .mottocard {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 100%;
+        height: 70vh;
+        padding-bottom: 40vh;
+        margin: 0%;
+    }
+
+    .mottocardreusabe {
+        height: 20vh !important;
+        width: 100%;
+        padding: 0 5vw;
+        margin: 0%;
+    }
+}

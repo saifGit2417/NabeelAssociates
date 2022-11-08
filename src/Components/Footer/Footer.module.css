@@ -1,0 +1,215 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.footercontainer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    height: 80vh;
+    width: 100%;
+    background-color: #00539f;
+    text-align: left;
+}
+
+.logocontainer {
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    background-color: #6351ce;
+    color: white;
+    padding: 2vh 0;
+}
+
+.social {
+    font-size: 20px;
+    margin-left: 10vw;
+}
+
+.logocontainer1 {
+    margin-left: 35vw;
+}
+
+.logo {
+    margin: 0px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.logo:hover {
+    color: white;
+}
+
+.brandcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5vh 0;
+    color: white;
+}
+
+.nabeelbrand {
+    width: 30vw;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicelink {
+    text-decoration: none;
+    font-size: 20px;
+    color: white ; 
+    padding: 5px 0px;
+}
+.servicelink:hover{
+    color: black !important;
+}
+.servicelink:focus{
+    color: black !important;
+}
+.adress {
+    font-size: 20px;
+}
+
+@media (min-width:1024px) and (max-width:1430px) {
+    .footercontainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .logocontainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .social {
+        margin-left: 5vw;
+    }
+
+    .logocontainer1 {
+        margin-left: 10vw;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .logocontainer {
+        display: flex;
+    }
+    .logo {
+        padding: 0px 20px;
+        margin: 0%;
+        
+    }
+    .social {
+        margin-left: 0vw;
+    }
+
+    .logocontainer1 {
+        margin-left: 5vw;
+    }
+
+}
+
+@media (min-width:425px) and (max-width:767px) {
+    .footercontainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 170vh;
+        text-align: center;
+    }
+
+    .logocontainer {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+/* 
+    .logo {
+        padding: 0%;
+        margin: 0%;
+    } */
+
+    .social {
+        margin-left: 5vw;
+    }
+
+    .logocontainer1 {
+        margin-left: 0%;
+    }
+
+    .brandcontainer {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nabeelbrand {
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .services {
+        margin-top: 10vh;
+    }
+
+    .contactfooter {
+        margin-top: 10vh;
+    }
+}
+
+@media (min-width:310px) and (max-width:425px) {
+    .footercontainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 190vh;
+        text-align: center;
+    }
+
+    .logocontainer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+    }
+
+    .social {
+        margin-left: 0%;
+    }
+
+    .logocontainer1 {
+        margin-left: 0%;
+    }
+
+    .logo {
+        margin: 0px 15px;
+    }
+
+    .brandcontainer {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nabeelbrand {
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .services {
+        margin-top: 10vh;
+    }
+
+    .contactfooter {
+        margin-top: 10vh;
+    }
+}
